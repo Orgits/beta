@@ -1,4 +1,5 @@
-import Home1 from "./home1/page";
+import ContactUs from "./contact-us/page";
+import ContactUs from "./contact-us/page";
 
 export default function HomePage() {
   return (
