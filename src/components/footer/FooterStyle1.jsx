@@ -52,16 +52,16 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                     <h4 className="widget-title">Our Company</h4>
                                     <ul>
                                         <li>
-                                            <Link href="/about-us">Compnay Profile</Link>
+                                            <Link href="./">Compnay Profile</Link>
                                         </li>
                                         <li>
                                             <Link href="/contact-us">Help Center</Link>
                                         </li>
                                         <li>
-                                            <Link href="/about-us">Career</Link>
+                                            <Link href="./">Career</Link>
                                         </li>
                                         <li>
-                                            <Link href="/pricing">Plans & Pricing</Link>
+                                            <Link href="./">Plans & Pricing</Link>
                                         </li>
                                         <li>
                                             <Link href="/contact-us">Contact</Link>
@@ -74,19 +74,19 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                     <h4 className="widget-title">Our Services</h4>
                                     <ul>
                                         <li>
-                                            <Link href="/services-details/1">Manage investment</Link>
+                                            <Link href="./">Manage investment</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Business planning</Link>
+                                            <Link href="./">Business planning</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Financial advices</Link>
+                                            <Link href="./">Financial advices</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Tax strategy</Link>
+                                            <Link href="./">Tax strategy</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services-details/1">Insurance strategy</Link>
+                                            <Link href="./">Insurance strategy</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -115,10 +115,10 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                             <div className="col-lg-6 text-end">
                                 <ul>
                                     <li>
-                                        <Link href="/faq">Terms</Link>
+                                        <Link href="./">Terms</Link>
                                     </li>
                                     <li>
-                                        <Link href="/about-us">Privacy</Link>
+                                        <Link href="./">Privacy</Link>
                                     </li>
                                     <li>
                                         <Link href="/contact-us">Support</Link>
