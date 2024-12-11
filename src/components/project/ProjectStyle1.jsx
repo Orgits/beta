@@ -14,8 +14,8 @@ const ProjectStyle1 = () => {
                         <div className="row">
                             <div className="col-lg-5">
                                 <div className="content-left">
-                                    <h5 className="sub-heading">Popular Projects</h5>
-                                    <h2 className="heading">Our most recent Completed Projects</h2>
+                                    <h5 className="sub-heading">Building Strong Client Relationships </h5>
+                                    <h2 className="heading">Driving Your Growth with Expertise and Precision.</h2>
                                 </div>
                             </div>
                         </div>

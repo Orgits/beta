@@ -2,12 +2,12 @@ import Image from 'next/image';
 import React from 'react';
 import shape7 from '@/assets/img/shape/7.png';
 import shape9 from '@/assets/img/shape/9.png';
-import logo from '@/assets/img/logo.png';
+import logo from '@/assets/img/logo/logo.png'
 import Link from 'next/link';
 import SocialShare from '../utilities/SocialShare';
 import FooterNewsLetter from '../form/FooterNewsLetter';
 
-const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
+const FooterStyle1 = ({ shape, shapeClass,  formStyle }) => {
     return (
         <>
             <footer className="bg-dark text-light">
@@ -27,14 +27,13 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                 <Link className="navbar-brand" href="/">
                                 <Image src={logo} className="logo" alt="Logo" />
                 </Link>
-                                    <p>
-                                        Excellence decisively nay man twins impression maximum contrasted remarkably is perfect.
+                                    <p> Trusted Excellence in Accounting, Taxation, and Financial Solutions.
                                     </p>
                                     <div className="opening-hours">
                                         <h5>Opening Hours</h5>
                                         <ul>
                                             <li>
-                                                <div className="working-day">Monday – Sunday:</div>
+                                                <div className="working-day">Monday – Saturday:</div>
                                                 <div className="marker"></div>
                                                 <div className="working-hour">10AM – 7PM</div>
                                             </li>
@@ -55,16 +54,16 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                             <Link href="./">Compnay Profile</Link>
                                         </li>
                                         <li>
-                                            <Link href="/contact-us">Help Center</Link>
+                                            <Link href="/contact-us">About Us</Link>
                                         </li>
                                         <li>
-                                            <Link href="./">Career</Link>
+                                            <Link href="./">Service</Link>
                                         </li>
                                         <li>
-                                            <Link href="./">Plans & Pricing</Link>
+                                        <Link href="/contact-us">Contact Us</Link>
                                         </li>
                                         <li>
-                                            <Link href="/contact-us">Contact</Link>
+                                        <Link href="./blog-3-column">Blogs</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -74,19 +73,19 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                                     <h4 className="widget-title">Our Services</h4>
                                     <ul>
                                         <li>
-                                            <Link href="./">Manage investment</Link>
+                                            <Link href="./">Audit & Assurance</Link>
                                         </li>
                                         <li>
-                                            <Link href="./">Business planning</Link>
+                                            <Link href="./">Reports & Certification</Link>
                                         </li>
                                         <li>
-                                            <Link href="./">Financial advices</Link>
+                                            <Link href="./">Outsourcing Support Service</Link>
                                         </li>
                                         <li>
-                                            <Link href="./">Tax strategy</Link>
+                                            <Link href="./">Governance, Risk & Compilance Advisory</Link>
                                         </li>
                                         <li>
-                                            <Link href="./">Insurance strategy</Link>
+                                            <Link href="./">Advisory & Assistance</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -94,7 +93,7 @@ const FooterStyle1 = ({ shape, shapeClass, logo, formStyle }) => {
                             <div className="col-lg-4 col-md-6 footer-item">
                                 <h4 className="widget-title">Newsletter</h4>
                                 <p>
-                                    Join our subscribers list to get the latest <br /> news and special offers.
+                                Stay Ahead! Join our newsletter for expert tips,<br />updates, and exclusive insights into accounting and finance.
                                 </p>
                                 <div className={`f-item newsletter ${formStyle}`}>
                                     <FooterNewsLetter />

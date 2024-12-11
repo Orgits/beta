@@ -14,10 +14,10 @@ const About1Card = () => {
                         <div className="fun-fact">
                             <div className="counter">
                                 <div className="timer">
-                                    <CountUp enableScrollSpy end={98} delay={1} duration={2} /></div>
+                                    <CountUp enableScrollSpy end={99} delay={1} duration={2} /></div>
                                 <div className="operator">%</div>
                             </div>
-                            <span className="medium">Consulting Success</span>
+                            <span className="medium">Project Success</span>
                         </div>
                     </li>
                     <li>
@@ -26,10 +26,10 @@ const About1Card = () => {
                         </div>
                         <div className="fun-fact">
                             <div className="counter">
-                                <div className="timer">  <CountUp enableScrollSpy end={120} delay={1} duration={2} /></div>
+                                <div className="timer">  <CountUp enableScrollSpy end={110} delay={1} duration={2} /></div>
                                 <div className="operator">+</div>
                             </div>
-                            <span className="medium">Worldwide Clients</span>
+                            <span className="medium">Global Clients</span>
                         </div>
                     </li>
                 </ul>

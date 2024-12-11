@@ -23,7 +23,7 @@ const Home1 = () => {
                 <BannerStyle1 />
                 <AboutStyle1 />
                 <ServicesStyle1 />
-                <ProcessStyle1 />
+                {/* <ProcessStyle1 /> */}
                 <ChooseStyle1 />
                 <PartnerStyle1 sectionClass="default-padding" />
                 <TeamStyle1 sectionClass="bg-gray" teamTitle={true} />

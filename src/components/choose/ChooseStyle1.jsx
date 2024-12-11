@@ -6,7 +6,7 @@ const ChooseStyle1 = () => {
     return (
         <>
             <div className="choose-us-style-one-area default-padding text-light">
-                <div className="cover-bg" style={{ backgroundImage: `url(/assets/img/banner/7.jpg)` }}></div>
+                <div className="cover-bg" style={{ backgroundImage: `url(https://cdn.pixabay.com/photo/2018/02/08/10/22/desk-3139127_960_720.jpg)` }}></div>
                 <div className="shape-left-top">
                     <Image src={shape17} alt="Shape" />
                 </div>
@@ -15,18 +15,18 @@ const ChooseStyle1 = () => {
                     <div className="row">
                         <div className="col-lg-6 pr-80 pr-md-15 pr-xs-15">
                             <div className="choose-us-style-one">
-                                <h2 className="title mb-35">Be at the forefront of the new innovation</h2>
+                                <h2 className="title mb-35">Stay Ahead with Innovative Financial Solutions</h2>
                                 <ul className="list-item">
                                     <li className="wow fadeInUp">
-                                        <h4>Best Business Consulting </h4>
+                                        <h4>Accuracy. Transparency. Trust </h4>
                                         <p>
-                                            Seeing rather her you not esteem men settle genius excuse. International Deal say over you age from. Comparison new ham melancholy son themselves.
+                                        Our Audit and Assurance services focus on delivering precision-driven insights, fostering financial clarity, and building unwavering confidence. We ensure compliance while helping you make informed, strategic decisions for sustainable growth.
                                         </p>
                                     </li>
                                     <li className="wow fadeInUp" data-wow-delay="300ms">
                                         <h4>24/7 Customer Support </h4>
                                         <p>
-                                            Tohether rather her you not esteem men settle genius excuse. Deal say over you age from. Comparison new ham melancholy son.
+                                        Our support services are designed to be your backbone in navigating complex financial and business challenges. With a commitment to dependability and excellence, we provide tailored assistance that empowers your success and fosters lasting partnerships.
                                         </p>
                                     </li>
                                 </ul>

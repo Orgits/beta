@@ -5,7 +5,7 @@ import Link from 'next/link';
 const RequestCallStyle1 = () => {
     return (
         <>
-            <div className="request-call-back-area text-light default-padding" style={{ backgroundImage: `url(/assets/img/banner/13.jpg)` }}>
+            <div className="request-call-back-area text-light default-padding" style={{ backgroundImage: `url(https://cdn.pixabay.com/photo/2015/07/28/22/01/office-865091_1280.jpg)` }}>
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-lg-6">

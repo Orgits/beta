@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "bgThumb": "source/public/assets/img/thumb/workplace.jpg",
+        "bgThumb": "10.png",
         "title": "Meet Chartered Accountants",
         "title1": "Financial Analysis",
         "title2": "Developing Meeting.",
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "bgThumb": "calculator.jpg",
-        "title": "Coaching & Consulting",
+        "title": "Business Consulting",
         "title1": "Strategies for",
         "title2": "Enduring Success",
         "btnText": "Our Services",
