@@ -6,7 +6,7 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
         <>
             <ul className={`nav navbar-nav ${navbarPlacement}`} data-in="fadeInDown" data-out="fadeOutUp">
                 <li className="dropdown">
-                    <Link href="./" >Home</Link>
+                    <Link href="/home1" >Home</Link>
                     {}
                 </li>
                 <li className="dropdown">
@@ -21,14 +21,14 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
                 <li className="dropdown">
                     <Link href="#" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>Services</Link>
                     <ul className="dropdown-menu">
-                        <li><Link href="./">Audit and Assurance</Link></li>
-                        <li><Link href="./">Report & Certification</Link></li>
-                        <li><Link href="./">Outsourcing Support Service </Link></li>
-                        <li><Link href="./">Governance, Risk & Compliance Advisory </Link></li>
-                        <li><Link href="./">Advisory & Assistance</Link></li>
-                        <li><Link href="./">FEMA Advisory</Link></li>
-                        <li><Link href="./">Corporate Law</Link></li>
-                        <li><Link href="./"> Formation & Registration Services</Link></li>
+                        <li><Link href="#">Audit and Assurance</Link></li>
+                        <li><Link href="#">Report & Certification</Link></li>
+                        <li><Link href="#">Outsourcing Support Service </Link></li>
+                        <li><Link href="#">Governance, Risk & Compliance Advisory </Link></li>
+                        <li><Link href="#">Advisory & Assistance</Link></li>
+                        <li><Link href="#">FEMA Advisory</Link></li>
+                        <li><Link href="#">Corporate Law</Link></li>
+                        <li><Link href="#"> Formation & Registration Services</Link></li>
                     </ul>
                 </li>
                 <li className="dropdown">
