@@ -10,9 +10,9 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
                     {}
                 </li>
                 <li className="dropdown">
-                    <Link href="/about-us" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>About Us</Link>
+                    <Link href="./about-us" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>About Us</Link>
                     <ul className="dropdown-menu">
-                        <li><Link href="./about-us">About Us</Link></li>
+                        <li><Link href="/about-us">About Us</Link></li>
                         <li><Link href="./">Team</Link></li>
                         <li><Link href="./">FAQ</Link></li>
                     </ul>
