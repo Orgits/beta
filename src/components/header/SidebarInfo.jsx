@@ -58,7 +58,7 @@ const SidebarInfo = ({ closeInfoBar, isInfoOpen, openInfoBar, searchOpen }) => {
                             <li>
                                 <div className="content">
                                     <p>Contact</p>
-                                    <a href="tel:+44-20-7328-4499"> <strong>+44-20-7328-4499</strong></a>
+                                    <a href="tel:+91 99996 67121"> <strong>+91 99996 67121</strong></a>
                                 </div>
                             </li>
                         </ul>

@@ -51,19 +51,19 @@ const FooterStyle1 = ({ shape, shapeClass,  formStyle }) => {
                                     <h4 className="widget-title">Our Company</h4>
                                     <ul>
                                         <li>
-                                            <Link href="./">Compnay Profile</Link>
+                                            <Link href="#">Compnay Profile</Link>
                                         </li>
                                         <li>
-                                            <Link href="/contact-us">About Us</Link>
+                                            <Link href="#">About Us</Link>
                                         </li>
                                         <li>
-                                            <Link href="./">Service</Link>
+                                            <Link href="#">Service</Link>
                                         </li>
                                         <li>
-                                        <Link href="/contact-us">Contact Us</Link>
+                                        <Link href="#">Contact Us</Link>
                                         </li>
                                         <li>
-                                        <Link href="./blog-3-column">Blogs</Link>
+                                        <Link href="#">Blogs</Link>
                                         </li>
                                     </ul>
                                 </div>
