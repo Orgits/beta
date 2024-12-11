@@ -6,13 +6,13 @@ const MainMenu = ({ toggleSubMenu, navbarPlacement }) => {
         <>
             <ul className={`nav navbar-nav ${navbarPlacement}`} data-in="fadeInDown" data-out="fadeOutUp">
                 <li className="dropdown">
-                    <Link href="./" >Home</Link>
+                    <Link href="./home" >Home</Link>
                     {}
                 </li>
                 <li className="dropdown">
                     <Link href="/about-us" className="dropdown-toggle" data-toggle="dropdown" onClick={toggleSubMenu}>About Us</Link>
                     <ul className="dropdown-menu">
-                        <li><Link href="./">About Us</Link></li>
+                        <li><Link href="./about-us">About Us</Link></li>
                         <li><Link href="./">Team</Link></li>
                         <li><Link href="./">FAQ</Link></li>
                     </ul>
