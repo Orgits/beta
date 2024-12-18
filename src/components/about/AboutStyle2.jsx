@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import about7Thumb from '@/assets/img/about/7.jpg'
+import about7Thumb from '@/assets/img/service/contract-8858773_1280.webp'
 import about8Thumb from '@/assets/img/about/8.jpg'
 import anim5Shape from '@/assets/img/shape/anim-5.png'
 import Link from 'next/link';
@@ -26,12 +26,13 @@ const AboutStyle2 = ({ sectionClass }) => {
                             </div>
                         </div>
                         <div className="about-style-two col-lg-6 offset-lg-1">
-                            <h2 className="title">Finance Consulting for <br /> Challenging Times</h2>
+                            <h2 className="title">Strategic Financial Consulting for <br /> Modern Challenges</h2>
                             <p>
-                                We work to understand your issues and are driven to ask better questions in the pursuit of
-                                making work. Me contained explained my education. Vulgar as hearts by garret. Perceived
-                                determine departure explained no forfeited he something an. Contrasted dissimilar get joy you
-                                instrument out reasonably. Again keep.
+                                In today's fast-paced and dynamic business environment, navigating financial complexities requires a forward-thinking approach. At SJVJ & Co., we specialize in delivering tailored financial consulting solutions that empower businesses to thrive in challenging times.
+
+                                Our expertise spans a wide range of services, including financial planning, risk management, compliance, and strategic growth advisory. With a commitment to precision and innovation, we help you transform challenges into opportunities, ensuring your financial health remains robust and resilient.
+
+                                Partner with us for a future-focused financial strategy designed to meet your unique needs.
                             </p>
                             <div className="default-features mt-30">
                                 <div className="default-feature-item">
