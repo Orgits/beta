@@ -71,6 +71,42 @@
             }
         ]
     },
+    {
+        "id": 4,
+        "tabClass": "show active",
+        "tabId": "tab4",
+        "ariaLabelled": "nav-id-4",
+        "tabData": [
+            {
+                "id": 1,
+                "animationDelay": 0,
+                "icon": "flaticon-personal",
+                "title": "Corporate Law Advisory",
+                "text": "Stay updated and compliant with the latest corporate laws and governance practices to avoid legal complications."
+            },
+            {
+                "id": 2,
+                "animationDelay": "",
+                "icon": "flaticon-career",
+                "title": "Mergers & Acquisitions Support",
+                "text": "Navigate complex M&A transactions with confidence, from due diligence to regulatory approvals."
+            },
+            {
+                "id": 3,
+                "animationDelay": "",
+                "icon": "flaticon-group",
+                "title": "Company Formation & Structuring",
+                "text": "Set up and structure your company effectively, ensuring compliance with statutory and legal requirements."
+            },
+            {
+                "id": 4,
+                "animationDelay": "",
+                "icon": "flaticon-solution-5",
+                "title": "Legal Documentation & Agreements",
+                "text": "Prepare and review contracts, agreements, and other legal documents to safeguard your business interests."
+            }
+        ]
+    },
     
     {
         "id": 3,
@@ -106,6 +142,7 @@
                 "title": "Tax Compliance Support",
                 "text": "Ensure timely and accurate tax filings, reducing risks and penalties associated with non-compliance."
             }
+            
         ]
     }
 ]

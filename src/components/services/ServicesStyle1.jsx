@@ -21,15 +21,19 @@ const ServicesStyle1 = () => {
                                 <div className="nav nav-tabs service-tab-navs" id="nav-tab" role="tablist">
                                     <button className="nav-link active" id="nav-id-1" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">
                                         <i className="flaticon-portfolio"></i>
-                                        Audit and Assurance 
+                                        Assurance Services
                                     </button>
                                     <button className="nav-link" id="nav-id-2" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">
                                         <i className="flaticon-megaphone"></i>
-                                        Formation & Registration Services 
+                                        Advisory Services 
                                     </button>
                                     <button className="nav-link" id="nav-id-3" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">
                                         <i className="flaticon-save-money"></i>
-                                        Governance, Risk & Compliance Advisory  
+                                        Business Support Services
+                                    </button>
+                                    <button className="nav-link" id="nav-id-4" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab" aria-controls="tab4" aria-selected="false">
+                                        <i className="flaticon-save-money"></i>
+                                        Corporate Legal & Regulatory Services
                                     </button>
                                 </div>
                             </div>
