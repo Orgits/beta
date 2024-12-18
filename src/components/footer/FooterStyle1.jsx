@@ -13,7 +13,7 @@ const FooterStyle1 = ({ shape, shapeClass,  formStyle }) => {
             <footer className="bg-dark text-light">
                 <div className="footer-shape">
                     <div className={`item ${shapeClass}`}>
-                        {shape ? <Image src={shape} alt="Shape" /> : <Image src={shape7} alt="Shape" />}
+                        {/* {shape ? <Image src={shape} alt="Shape" /> : <Image src={shape7} alt="Shape" />} */}
                     </div>
                     <div className="item">
                         <Image src={shape9} alt="Shape" />

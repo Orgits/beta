@@ -8,9 +8,9 @@ const ChooseStyle1 = () => {
             <div className="choose-us-style-one-area default-padding text-light">
                 <div className="cover-bg" style={{ backgroundImage: `url(https://cdn.pixabay.com/photo/2018/02/08/10/22/desk-3139127_960_720.jpg)` }}></div>
                 <div className="shape-left-top">
-                    <Image src={shape17} alt="Shape" />
+                    {/* <Image src={shape17} alt="Shape" /> */}
                 </div>
-                <div className="text-invisible">SJVJ & CO.</div>
+                {/* <div className="text-invisible">SJVJ & CO.</div> */}
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 pr-80 pr-md-15 pr-xs-15">

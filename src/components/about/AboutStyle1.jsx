@@ -13,8 +13,8 @@ const AboutStyle1 = () => {
         <>
             <div className="about-style-one-area default-padding">
                 <div className="shape-animated-left">
-                    <Image src={anim1Thumb} alt="Image Not Found" />
-                    <Image src={anim2Thumb} alt="Image Not Found" />
+                    {/* <Image src={anim1Thumb} alt="Image Not Found" /> */}
+                    {/* <Image src={anim2Thumb} alt="Image Not Found" /> */}
                 </div>
                 <div className="container">
                     <div className="row align-center">

@@ -9,7 +9,7 @@ const ServicesStyle1 = () => {
         <>
             <div className="services-style-one-area default-padding bg-gray">
                 <div className="triangle-shape">
-                    <Image src={shape10} alt="Shape" />
+                    {/* <Image src={shape10} alt="Shape" /> */}
                 </div>
                 <div className="center-shape" style={{ backgroundImage: `url(/assets/img/shape/5.png)` }}></div>
                 <div className="container">
