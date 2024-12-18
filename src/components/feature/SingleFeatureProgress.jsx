@@ -64,8 +64,8 @@ const SingleFeatureProgress = ({ progress }) => {
                     <svg style={{ height: 0, width: 0 }}>
                         <defs>
                             <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                <stop offset="0%" style={{ stopColor: '#930707', stopOpacity: 1 }} />
-                                <stop offset="100%" style={{ stopColor: '#ED7722', stopOpacity: 1 }} />
+                                <stop offset="0%" style={{ stopColor: '#1d2027', stopOpacity: 1 }} />
+                                <stop offset="100%" style={{ stopColor: '#0b57e3 ', stopOpacity: 1 }} />
                             </linearGradient>
                         </defs>
                     </svg>

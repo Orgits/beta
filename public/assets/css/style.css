@@ -6,7 +6,7 @@ Description:
 Version: 1.0
 
 Main Font    : Outfit
-Main Color   : #ED7722
+Main Color   : #0b57e3 
 
 -------------------------------------
 
@@ -79,7 +79,7 @@ Sidebar heading:  20px 'Outfit', sans-serif
     20. Footer
     21. PHP Contact Form
     22. Others
-#ED7722 - ORANGE
+#0b57e3  - ORANGE
 #52B947 - GREEN
 
 */
@@ -91,12 +91,12 @@ Sidebar heading:  20px 'Outfit', sans-serif
 	--font-secondary: 'Manrope', sans-serif;
 	--fontawesome: "Font Awesome 5 Pro";
 	--black: #000000;
-	--dark: #1D2027;
+	--dark: #1d2027;
 	--dark-secondary: #022b6d;
 	--dark-optional: #3e00a7;
 	--white: #ffffff;
-	--color-primary: #ED7722;
-	--color-secondary: #0b57e3;
+	--color-primary: #0b57e3 ;
+	--color-secondary: #0b57e3 ;
 	--color-optional: #52B947;
 	--color-heading: #0e0e0e;
 	--color-paragraph: #666666;
@@ -107,8 +107,8 @@ Sidebar heading:  20px 'Outfit', sans-serif
 	--bg-gradient: linear-gradient(90deg, var(--color-secondary) 0%, var(--color-primary) 100%);
 	--bg-gradient-secondary: linear-gradient(90deg, var(--color-secondary) 40%, var(--dark-secondary) 100%);
 	--bg-gradient-reverse: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-	--gradient-bg: linear-gradient(90deg, #ED7722 0%, #930707 100%);
-	--bg-gradient-optional: linear-gradient(90deg, #57B33E 50%, #b59f11 100%);
+	--gradient-bg: linear-gradient(90deg, #0b57e3  0%, #1d2027 100%);
+	--bg-gradient-optional: linear-gradient(90deg, #1d2027 50%, #b59f11 100%);
 }
 
 /* ============================================================== 
@@ -957,7 +957,7 @@ p {
 }
 
 .bg-dark .sub-heading {
-	background: linear-gradient(90deg, #ED7722 0%, #7c00ff 100%);
+	background: linear-gradient(90deg, #0b57e3  0%, #7c00ff 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -965,7 +965,7 @@ p {
 }
 
 .bg-dark.secondary .sub-heading {
-	background: linear-gradient(90deg, #0b57e3 0%, #7c00ff 100%);
+	background: linear-gradient(90deg, #0b57e3  0%, #7c00ff 100%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -9187,7 +9187,7 @@ footer::after {
 }
 
 .home-solar .bg-gradient {
-	background: linear-gradient(90deg, #57B33E 0%, #d2ff09 100%) !important;
+	background: linear-gradient(90deg, #1d2027 0%, #d2ff09 100%) !important;
 }
 
 .home-solar nav.navbar.validnavs.navbar-fixed.navbar-style-three.no-background .container::after {
