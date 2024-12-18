@@ -38,25 +38,5 @@
         "icon": "flaticon-bar-chart",
         "text": "Stay ahead of regulatory challenges with our Governance, Risk, and Compliance (GRC) Advisory services. We help you establish robust governance frameworks, mitigate risks, and achieve full regulatory compliance, empowering your business to operate with confidence in an ever-evolving environment.",
         "btnText": "Read More"
-    },
-    {
-        "id": 5,
-        "thumb": "3.jpg",
-        "thumbFull": "3-full.jpg",
-        "activeClass": "",
-        "title": "FEMA Advisory",
-        "icon": "flaticon-bar-chart",
-        "text": "Ensure compliance with India's Foreign Exchange Management Act (FEMA) with our specialized advisory services. We assist in matters related to cross-border transactions, foreign investments, and regulatory approvals, ensuring seamless operations in a global business environment.",
-        "btnText": "Read More"
-    },
-    {
-        "id": 6,
-        "thumb": "3.jpg",
-        "thumbFull": "3-full.jpg",
-        "activeClass": "",
-        "title": "Corporate Law",
-        "icon": "flaticon-bar-chart",
-        "text": "Stay compliant and minimize legal risks with our Corporate Law services. We provide expert guidance on corporate governance, mergers and acquisitions, company formation, and legal documentation, ensuring your business adheres to statutory requirements while achieving its strategic goals.",
-        "btnText": "Read More"
     }
 ]
