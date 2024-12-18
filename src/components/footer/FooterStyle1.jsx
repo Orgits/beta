@@ -54,16 +54,22 @@ const FooterStyle1 = ({ shape, shapeClass,  formStyle }) => {
                                             <Link href="#">Compnay Profile</Link>
                                         </li>
                                         <li>
-                                            <Link href="#">About Us</Link>
+                                            <Link href="/about-us">About Us</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Our Team</Link>
                                         </li>
                                         <li>
                                             <Link href="#">Service</Link>
                                         </li>
                                         <li>
-                                        <Link href="#">Contact Us</Link>
+                                        <Link href="/contact-us">Contact Us</Link>
                                         </li>
                                         <li>
-                                        <Link href="#">Blogs</Link>
+                                        <Link href="/blog-3-column">Blogs</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">Disclaimer</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -86,6 +92,12 @@ const FooterStyle1 = ({ shape, shapeClass,  formStyle }) => {
                                         </li>
                                         <li>
                                             <Link href="./">Advisory & Assistance</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="./">FEMA Advisory</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="./">Corporate Law</Link>
                                         </li>
                                     </ul>
                                 </div>
