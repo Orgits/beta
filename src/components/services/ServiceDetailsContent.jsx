@@ -6,7 +6,7 @@ import Link from 'next/link';
 import handleSmoothScroll from '../utilities/handleSmoothScroll';
 
 const ServiceDetailsContent = ({ serviceInfo }) => {
-    const { thumbFull, title } = serviceInfo
+    const { thumbFull, title, text } = serviceInfo
 
     return (
         <>
@@ -19,19 +19,17 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                                     <Image src={`/assets/img/service/${thumbFull}`} alt="Thumb" width={1460} height={782} />
                                 </div>
                                 <h2>{title}</h2>
-                                <p>
-                                    We denounce with righteous indige nation and dislike men who are so beguiled and demo realized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue cannot foresee. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled data structures manages data in technology.
-                                </p>
+                                <p>{text}</p>
                                 <div className="features mt-40 mt-xs-30 mb-30 mb-xs-20">
                                     <div className="row">
                                         <div className="col-lg-5 col-md-6">
                                             <div className="content">
                                                 <h3>Included Services</h3>
                                                 <ul className="feature-list-item">
-                                                    <li>Consulting Service</li>
-                                                    <li>24/7 Alltime Supporting</li>
+                                                    <li>N/A</li>
+                                                    {/* <li>24/7 Alltime Supporting</li>
                                                     <li>Marketing Service</li>
-                                                    <li>Expert Team Members</li>
+                                                    <li>Expert Team Members</li> */}
                                                 </ul>
                                             </div>
                                         </div>
@@ -39,7 +37,7 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                                             <div className="content">
                                                 <h3>The Challange</h3>
                                                 <p>
-                                                    Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias. consequatur aut perferendis doloribus.
+                                                    Please Provide Details.
                                                 </p>
                                             </div>
                                         </div>
@@ -47,7 +45,7 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                                 </div>
                                 <h3>What we do?</h3>
                                 <p>
-                                    Nam libero tempore, cum soluta nobis est elig endi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repelle ndus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias. consequatur aut perferendis doloribus asperiores repellat. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.  pleasures have to be repudiated and annoyances accepted.
+                                    N/A
                                 </p>
 
                                 <div className="faq-style-one dark mt-40">
@@ -67,7 +65,7 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                                                 <i className="flaticon-personal"></i>
                                                 <h4><Link href="#" onClick={handleSmoothScroll}>Investment Planning</Link></h4>
                                                 <p>
-                                                    These cases are perfectly simple and easy to distinguish. In a free hour, when our power.
+                                                   N/A
                                                 </p>
                                             </div>
                                         </div>
@@ -76,7 +74,7 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                                                 <i className="flaticon-career"></i>
                                                 <h4><Link href="#" onClick={handleSmoothScroll}>Markets Research</Link></h4>
                                                 <p>
-                                                    These cases are perfectly simple and easy to distinguish. In a free hour, when our power.
+                                                    N/A
                                                 </p>
                                             </div>
                                         </div>
@@ -86,14 +84,15 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
 
                             <div className="col-xl-4 col-lg-5 mt-md-120 mt-xs-50 services-sidebar">
                                 <div className="single-widget services-list-widget">
-                                    <h4 className="widget-title">Marketing Services</h4>
+                                    <h4 className="widget-title">Other Services</h4>
                                     <div className="content">
                                         <ul>
-                                            <li><Link href="#">Email Marketing</Link></li>
-                                            <li className="current-item"><Link href="#">Growth Hacking</Link></li>
-                                            <li><Link href="#">Lead Generation</Link></li>
-                                            <li><Link href="#">Offline SEO</Link></li>
-                                            <li><Link href="#">Social Media Marketing</Link></li>
+                                            <li><Link href="#">Audit & Assurance</Link></li>
+                                            <li className="current-item"><Link href="#">Reports & Certification</Link></li>
+                                            <li><Link href="#">Advisory & Assistance</Link></li>
+                                            <li><Link href="#">Outsourcing Support Service</Link></li>
+                                            <li><Link href="#">FEMA Advisory</Link></li>
+                                            <li><Link href="#">Corporate Law</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -102,10 +101,10 @@ const ServiceDetailsContent = ({ serviceInfo }) => {
                                     <div className="content">
                                         <h3>Need Help?</h3>
                                         <p>
-                                            Speak with a human to filling out a form? call corporate office and we will connect you with a team member help.
+                                            Call corporate office and we will connect you with a team member help.
                                         </p>
-                                        <h2><a href="tel:+(012) 6679545">+(012) 6679545</a></h2>
-                                        <h4><a href="mailto:info@digital.com">info@digital.com</a></h4>
+                                        <h2><a href="tel:+919999667121">+(91) 99996 67121</a></h2>
+                                        <h4><a href="mailto:info@sjvj.in">info@sjvj.in</a></h4>
                                         <Link className="btn mt-30 circle btn-sm btn-gradient" href="/contact-us">Contact Us</Link>
                                     </div>
                                 </div>
